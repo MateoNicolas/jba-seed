@@ -1,15 +1,17 @@
 <template>
-  <div id="app">SEED</div>
+  <div id="app">root</div>
+  <Menus/>
 </template>
 
 <script>
-import home from './components/home.vue';
+import Menus from './components/menus.vue';
 
 export default {
   name: 'App',
-  components: {
-    home,
-  },
+  components:{
+    Menus,
+  }
+   
 };
 </script>
 
